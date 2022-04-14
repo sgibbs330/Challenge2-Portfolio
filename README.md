@@ -14,10 +14,10 @@ I created a clean and organized looking portfolio web application that gives inf
 - I named the grid "runbuddy" and gave the info of "HTML/CSS" to show what the web application is about.
 - In the "contact me" section, the "email" link will open up a new, blank email, addressed to me. The "LinkedIn" link will open up an external window to my LinkedIn profile, and the "GitHub" link will open up an external window to my GitHub.
 
-Link to Portfolio: http://127.0.0.1:5500/Portfolio/index.html#contact-me
+Link to Portfolio: http://127.0.0.1:5500/Portfolio/index.html
 
-Screenshots of live website:
+Screenshots of live website [first shot is top of page, second shot is bottom]:
 
-<img width="1435" alt="Screen Shot 2022-04-14 at 3 34 34 PM" src="https://user-images.githubusercontent.com/101609307/163490226-58d5ebc8-4060-426f-bd65-09fda7d8dd7d.png">
+"https://user-images.githubusercontent.com/101609307/163490226-58d5ebc8-4060-426f-bd65-09fda7d8dd7d.png">
 
-<img width="1429" alt="Screen Shot 2022-04-14 at 3 34 38 PM" src="https://user-images.githubusercontent.com/101609307/163490245-d8b5fb1a-e176-4d5c-b5ef-79dd579bbd75.png">
+"https://user-images.githubusercontent.com/101609307/163490245-d8b5fb1a-e176-4d5c-b5ef-79dd579bbd75.png">
