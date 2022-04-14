@@ -6,14 +6,14 @@
 
 /* color variables */
 :root {
-    --primary: #a0a0a0;
+    --primary: #9d9d9d;
     --secondary: #dbdbdb;
     --pop: #ffffff;
 }
 
 /* body styles */
 body {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif, Georgia, 'Times New Roman', Times, serif, sans-serif;
     color: var(--primary);
     background-color: var(--secondary);
 }
@@ -22,9 +22,9 @@ body {
 header {
     background-color: var(--primary);
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 10px;
 }
 
 header h1 {
@@ -67,25 +67,19 @@ header nav ul li a:hover {
 
 /* hero style */
 .hero {
-    background-image: url("/images/office-desk-6180921__480.webp");
+    background-image: url("../images/office-desk-6180921__480.webp");
     height: 600px;
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    padding-left: 10%;
 }
 
 .hero img {
     height: 400px;
-}
-
-.hero .quote {
-    font-size: 35px;
-    display: flex;
-    justify-content: end;
-    text-align: right;
-    color: lightgray;
+    align-items: left;
+    border-radius: 100%;
 }
 
 
@@ -127,6 +121,17 @@ header nav ul li a:hover {
     background-color: var(--primary);
 }
 
+.projects-grid a {
+    overflow: hidden;
+    height: 150px;
+}
+.laptop {
+    width: 100%;
+    background-position: top;
+    padding-top:0%;
+    /* height: 125px; */
+}
+
 .my-work h2 {
     color: var(--secondary);
 }
@@ -138,6 +143,9 @@ header nav ul li a:hover {
     justify-content: center;
 }
 
+.runBuddy {
+    width: 600px;
+}
 .projects-grid {
     width: 70%;
     display: grid;
@@ -148,7 +156,7 @@ header nav ul li a:hover {
 
 .project {
     border: solid;
-    color: black;
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -188,11 +196,29 @@ header nav ul li a:hover {
 
 .project-label {
     /*background-color: var(--secondary);*/
-    background-color: lightgray;;
-    color: var(--primary);
-    padding: 10px;
+    background-color: rgb(197, 196, 196);
+    color: rgb(42, 42, 42);
+    /* padding: 10px; */
+    position: relative;
+
 }
 
+.project-label h3 {
+    position:absolute;
+    bottom: 30px;
+    right: 10px;
+    background: rgb(255, 255, 255); 
+    padding: 5px;
+
+}
+
+.project-label p {
+    position:absolute;
+    bottom: 10px;
+    right: 10px;
+    background: rgb(255, 255, 255);
+    padding: 5px; 
+}
 /* contact me style */
 footer {
     display: flex;
